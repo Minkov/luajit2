@@ -30,7 +30,7 @@ export MULTILIB= lib
 ##############################################################################
 
 DPREFIX= $(DESTDIR)$(PREFIX)
-INSTALL_BIN=   $(DPREFIX)/bin
+INSTALL_BIN=   $(DPREFIX)
 INSTALL_LIB=   $(DPREFIX)/$(MULTILIB)
 INSTALL_SHARE= $(DPREFIX)/share
 INSTALL_INC=   $(DPREFIX)/include/luajit-$(MAJVER).$(MINVER)
